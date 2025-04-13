@@ -1,0 +1,15 @@
+*   c6c321f (HEAD -> master, origin/master, origin/HEAD) Add starter code
+|\
+| * 6e85ae9 (origin/9-mark-all-tasks-in-a-category-as-completed, 9-mark-all-tasks-in-a-category-as-completed) Solution for the third issue
+* |   2e145ce Merge pull request #11 from hristinagjorgjievska/8-mark-a-task-as-completed-by-name
+|\ \
+| * | 27f8025 (origin/8-mark-a-task-as-completed-by-name, 8-mark-a-task-as-completed-by-name) Solution for the second issue
+| |/
+* |   b7de72e Merge pull request #10 from hristinagjorgjievska/1-remove-a-task-by-name
+|\ \
+| |/
+|/|
+| * d061878 (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Solution for the first issue
+|/
+* 0146120 Add starter code
+* e7624f5 Initial commit

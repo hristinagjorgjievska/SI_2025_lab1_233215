@@ -1,0 +1,36 @@
+13. git fetch origin - креирање tracker гранки за гранките кои ги креирав за GitHub проектот
+
+14. git checkout 1-remove-a-task-by-name - се префрлам на првата гранка за првиот issue
+
+15. nano SI2025Lab1Main.java - ја отварам текстуалната дадотека за да имплементирам решение за првиот issue
+
+16. git commit -m 'Solution for the first issue' - правам commit за првиот issue
+
+17. git push origin 1-remove-a-task-by-name - синхронизација на гранката со оддалечениот репозиториум
+
+19.
+git checkout 8-mark-a-task-as-completed-by-name - се префрлам на гранката за вториот issue
+nano SI2025Lab1Main.java - ја отварам текстуалната дадотека за да имплементирам решение за вториот issue
+git add . - дадотеката се става на stage
+git commit -m 'Solution for the second issue' - commit за вториот issue
+git push origin 8-mark-a-task-as-completed-by-name - синхронизација на гранката со оддалечениот репозиториум
+
+git checkout 9-mark-all-tasks-in-a-category-as-completed - се префрлам на гранката за третиот issue
+nano SI2025Lab1Main.java - ја отварам текстуалната дадотека за да имплементирам решение за првиот issue
+git add . - дадотеката се става на stage
+git commit -m 'Solution for the third issue' - commit за вториот issue
+git push origin 9-mark-all-tasks-in-a-category-as-completed - синхронизација на гранката со оддалечениот репозиториум
+
+22. 
+git checkout master - префрлање на главната гранка 
+git pull origin master - ги повлекуваме сите промени кои биле направени пред да направиме git push 
+git merge 9-mark-all-tasks-in-a-category-as-completed -рачно спојување на третата гранка со master 
+
+23. git push origin master - синхронизација со оддалечениот репозитороум
+
+25.
+nano logs.txt - креирање на нова дадотека за логовите
+git log --oneline --graph --all - приказ на логови
+git add . - ги додаваме дадотеките на stage
+git commit -m 'Final commit' - commit на дадотеките
+git push origin master - синхронизација со оддалечениот репозиториум
