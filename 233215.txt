@@ -13,7 +13,7 @@ git checkout 8-mark-a-task-as-completed-by-name - се префрлам на г�
 nano SI2025Lab1Main.java - ја отварам текстуалната дадотека за да имплементирам решение за вториот issue
 git add . - дадотеката се става на stage
 git commit -m 'Solution for the second issue' - commit за вториот issue
-git push origin 8-mark-a-task-as-completed-by-name - синхронизација на гранката со оддалечениот репозиториум //fast-forward, no conflict
+git push origin 8-mark-a-task-as-completed-by-name - синхронизација на гранката со оддалечениот репозиториум //fast-forward, no conflict 
 
 git checkout 9-mark-all-tasks-in-a-category-as-completed - се префрлам на гранката за третиот issue
 nano SI2025Lab1Main.java - ја отварам текстуалната дадотека за да имплементирам решение за првиот issue
