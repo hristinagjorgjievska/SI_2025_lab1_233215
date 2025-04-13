@@ -13,18 +13,18 @@ git checkout 8-mark-a-task-as-completed-by-name - се префрлам на г�
 nano SI2025Lab1Main.java - ја отварам текстуалната дадотека за да имплементирам решение за вториот issue
 git add . - дадотеката се става на stage
 git commit -m 'Solution for the second issue' - commit за вториот issue
-git push origin 8-mark-a-task-as-completed-by-name - синхронизација на гранката со оддалечениот репозиториум
+git push origin 8-mark-a-task-as-completed-by-name - синхронизација на гранката со оддалечениот репозиториум //fast-forward, no conflict
 
 git checkout 9-mark-all-tasks-in-a-category-as-completed - се префрлам на гранката за третиот issue
 nano SI2025Lab1Main.java - ја отварам текстуалната дадотека за да имплементирам решение за првиот issue
 git add . - дадотеката се става на stage
 git commit -m 'Solution for the third issue' - commit за вториот issue
-git push origin 9-mark-all-tasks-in-a-category-as-completed - синхронизација на гранката со оддалечениот репозиториум
+git push origin 9-mark-all-tasks-in-a-category-as-completed - синхронизација на гранката со оддалечениот репозиториум //fast-forward, no conflict
 
 22. 
 git checkout master - префрлање на главната гранка 
 git pull origin master - ги повлекуваме сите промени кои биле направени пред да направиме git push 
-git merge 9-mark-all-tasks-in-a-category-as-completed -рачно спојување на третата гранка со master 
+git merge 9-mark-all-tasks-in-a-category-as-completed -рачно спојување на третата гранка со master //recursive, no conflict
 
 23. git push origin master - синхронизација со оддалечениот репозитороум
 
